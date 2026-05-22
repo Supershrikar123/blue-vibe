@@ -1,5 +1,5 @@
 {
-  "name": "Waybar Blue",
+  "name": "Blue Vibe",
   "type": "dark",
   "colors": {
     "editor.background": "#22333b",
@@ -16,9 +16,6 @@
     "sideBarSectionHeader.background": "#22333b",
     "sideBarSectionHeader.foreground": "#fab387",
     "sideBarSectionHeader.border": "#61afef55",
-
-    "sideBarStickyScroll.background": "#22333b",
-    "sideBarStickyScroll.border": "#61afef55",
 
     "activityBar.background": "#19242a",
     "activityBar.foreground": "#61afef",
@@ -136,76 +133,50 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "comment"
-      ],
+      "scope": ["comment"],
       "settings": {
         "foreground": "#78bec7",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
+      "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
         "foreground": "#61afef"
       }
     },
     {
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
         "foreground": "#56b6c2"
       }
     },
     {
-      "scope": [
-        "string",
-        "constant.character"
-      ],
+      "scope": ["string", "constant.character"],
       "settings": {
         "foreground": "#98c379"
       }
     },
     {
-      "scope": [
-        "constant.numeric",
-        "constant.language"
-      ],
+      "scope": ["constant.numeric", "constant.language"],
       "settings": {
         "foreground": "#fab387"
       }
     },
     {
-      "scope": [
-        "entity.name.type",
-        "support.type",
-        "support.class"
-      ],
+      "scope": ["entity.name.type", "support.type", "support.class"],
       "settings": {
         "foreground": "#fab387"
       }
     },
     {
-      "scope": [
-        "variable",
-        "variable.other",
-        "identifier"
-      ],
+      "scope": ["variable", "variable.other", "identifier"],
       "settings": {
         "foreground": "#9cdef2"
       }
     },
     {
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
+      "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#e06c75"
       }
