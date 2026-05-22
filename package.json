@@ -1,0 +1,31 @@
+{
+  "name": "waybar-blue",
+  "displayName": "Waybar Blue",
+  "description": "A Waybar/Hyprland inspired dark blue VS Code theme with cyan accents and orange highlights.",
+  "version": "0.0.1",
+  "publisher": "your-publisher-id",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "waybar",
+    "hyprland",
+    "blue",
+    "cyan",
+    "linux"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Waybar Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/waybar-blue-color-theme.json"
+      }
+    ]
+  }
+}
